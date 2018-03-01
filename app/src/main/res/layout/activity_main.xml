@@ -28,16 +28,19 @@
                 android:layout_alignParentTop="true"
                 android:paddingLeft="16dp"
                 android:textSize="35dp"
+                android:text=""
                 android:textColor="#ff4c4c"
                 android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/resultList"
-                android:layout_width="437dp"
+                android:layout_width="500dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="30dp"
                 android:paddingLeft="16dp"
                 android:textSize="23dp"/>
+
+
 
         </LinearLayout>
 
@@ -53,13 +56,15 @@
         android:orientation="vertical"
         android:padding="20dp">
 
+
         <ProgressBar
             android:id="@+id/pb_loading_indicator"
             android:layout_height="42dp"
             android:layout_width="42dp"
+            android:layout_marginBottom="1dp"
             android:layout_gravity="center"
-            android:visibility="invisible" />
-
+            android:visibility="invisible"
+            />
 
         <ImageButton
             android:id="@+id/btnSpeak"
